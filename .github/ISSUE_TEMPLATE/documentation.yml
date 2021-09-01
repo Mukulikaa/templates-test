@@ -23,9 +23,10 @@ body:
       import numpy as np
       << your code here >>
       ```
+    render: markdown
   validations:
     required: true
-  render: markdown
+  
 
 - type: textarea
   attributes:
