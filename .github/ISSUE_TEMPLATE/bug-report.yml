@@ -42,7 +42,7 @@ body:
 - type: textarea
   attributes:
     label: "NumPy/Python version information:"
-    description: Output from 'import sys, numpy; print(numpy.__version__, sys.version)'
+    description: Output from `import sys, numpy; print(numpy.__version__, sys.version)`
   validations:
     required: true
 
