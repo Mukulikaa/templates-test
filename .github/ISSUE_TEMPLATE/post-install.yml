@@ -14,9 +14,9 @@ body:
 - type: textarea
   attributes:
     label: "Error message:"
-    description: |
-      Please include full error message, if any (starting from line Traceback: ...). If you are reporting a segfault please include a GDB
-      traceback, which you can generate by following https://github.com/numpy/numpy/blob/main/doc/source/dev/development_environment.rst#debugging.
+    description: "Please include full error message, if any (starting from line Traceback: ...). If you are reporting a segfault please include a GDB traceback, which you can generate by following https://github.com/numpy/numpy/blob/main/doc/source/dev/development_environment.rst#debugging."
     render: shell
-  validations:
-    required: false
+
+- type: textarea
+  attributes:
+    label: "Additional information (if any):"
