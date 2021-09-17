@@ -6,7 +6,7 @@ labels: [00 - Bug]
 body:
 - type: markdown
   attributes:
-    value: |
+    value: >
       Thank you for taking the time to file a bug report. Before creating a new issue, please make sure to take a few minutes to check the issue tracker for existing
       issues about the bug.
 - type: textarea
